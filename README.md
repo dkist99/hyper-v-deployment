@@ -39,7 +39,7 @@ Before beginning, ensure the following:
 6. Click **OK** and complete installation
 7. **Restart** the machine 
 
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](install-hyper-v.jpg)
 
 Alternatively, install Hyper-V using PowerShell:
 
