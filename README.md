@@ -100,18 +100,14 @@ New-VM -Name "TestVM" `
 ```
 ---
 
-### Step 7: Verify Virtual Machine Creation
+### Step 5: Verify Virtual Machine Creation
 Confirm the VM appears in Hyper-V Manager and is in an **Off** state.
    
 ![Install Hyper-V](images/step2-install-hyperv.png)
 
-PowerShell Method:
-```powershell
-New-VMSwitch -Name "ExternalSwitch" -NetAdapterName "Ethernet" -AllowManagementOS $true
-```
 ---
 
-### Step 8: Start Virtual Machine
+### Step 6: Start Virtual Machine
 Right-click VM → Click **Start**
 
 ![Install Hyper-V](images/step2-install-hyperv.png)
@@ -122,7 +118,7 @@ Start-VM -Name "TestVM"
 ```
 ---
 
-### Step 9: Connect to Virtual Machine
+### Step 7: Connect to Virtual Machine
 
 1. Right-click VM → **Connect**
 2. Proceed with **OS installation** if ISO is attached
