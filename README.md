@@ -39,7 +39,7 @@ Before beginning, ensure the following:
 6. Click **OK** and complete installation
 7. **Restart** the machine 
 
-![Install Hyper-V](install-hyper-v.jpg)
+![Install Hyper-V](images/install-hyper-v.jpg)
 
 Alternatively, install Hyper-V using PowerShell:
 
@@ -53,7 +53,7 @@ After reboot:
 1. Open **Hyper-V Manager**
 2. Confirm your machine is listed
 
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/hyper-v-manager.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ A virtual switch allows virtual machines to communicate on the network.
 5. Enable **Allow management OS to share this adapter**
 6. Click **Apply**
    
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/virtual-switch.jpg)
 
 PowerShell Method:
 ```powershell
@@ -87,7 +87,7 @@ New-VMSwitch -Name "ExternalSwitch" -NetAdapterName "Ethernet" -AllowManagementO
 7. Attach **ISO (optional)**
 8. Finish wizard
    
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/create-virtual-machine.jpg)
 
 PowerShell Method:
 ```powershell
@@ -103,14 +103,14 @@ New-VM -Name "TestVM" `
 ### Step 5: Verify Virtual Machine Creation
 Confirm the VM appears in Hyper-V Manager and is in an **Off** state.
    
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/verify-vm.jpg)
 
 ---
 
 ### Step 6: Start Virtual Machine
 Right-click VM → Click **Start**
 
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/start-vm.jpg)
 
 PowerShell Method:
 ```powershell
@@ -123,7 +123,7 @@ Start-VM -Name "TestVM"
 1. Right-click VM → **Connect**
 2. Proceed with **OS installation** if ISO is attached
    
-![Install Hyper-V](images/step2-install-hyperv.png)
+![Install Hyper-V](images/connect-vm.jpg)
 
 ---
 
@@ -133,4 +133,6 @@ This command confirms the VM is running successfully.
 ```powershell
 Get-VM
 ```
+![Install Hyper-V](images/vm-status.jpg)
+
 ---
