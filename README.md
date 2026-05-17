@@ -48,11 +48,10 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 ---
 
-### Step 4: Open Hyper-V Manager
+### Step 2: Open Hyper-V Manager
 After reboot:
-1. Open **Server Manager**
-2. Go to **Tools → Hyper-V Manager**
-3. Confirm your server is listed
+1. Open **Hyper-V Manager**
+2. Confirm your machine is listed
 
 ![Install Hyper-V](images/step2-install-hyperv.png)
 
