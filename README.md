@@ -11,7 +11,6 @@ This project demonstrates how to install and configure the Hyper-V role on Windo
 
 This lab simulates real-world system administration tasks related to virtualization and infrastructure setup.
 
-- **Project Type:** Technical walkthrough / implementation lab  
 - **Languages Used:** PowerShell  
 - **Environment:** Windows Server 2022  
 - **Technologies:** Hyper-V, Virtual Machines, Virtual Switch Manager  
