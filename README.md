@@ -13,7 +13,7 @@ This project demonstrates how to install and configure the Hyper-V role on Windo
 This lab simulates real-world system administration tasks related to virtualization and infrastructure setup.
  
 - **Languages Used:** PowerShell  
-- **Environment:** Windows 11 
+- **Environment:** Windows 11 25H2
 - **Technologies:** Hyper-V, Virtual Machines, Virtual Switch Manager  
 
 ---
