@@ -57,14 +57,15 @@ After reboot:
 
 ---
 
-### Step 5: Create Virtual Switch (Networking Setup)
+### Step 3: Create Virtual Switch (Networking Setup)
 A virtual switch allows virtual machines to communicate on the network.
 
 1. In Hyper-V Manager, click **Virtual Switch Manager**
-2. Select **External**
-3. Choose your **network adapter**
-4. Enable **Allow management OS to share this adapter**
-5. Click **Apply**
+2. Select **External**, then click **Create Virtual Switch**
+3. Name the virtual switch
+4. Choose your **network adapter**
+5. Enable **Allow management OS to share this adapter**
+6. Click **Apply**
    
 ![Install Hyper-V](images/step2-install-hyperv.png)
 
