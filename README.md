@@ -1,4 +1,4 @@
-# Hyper-V Deployment and Virtual Machine Configuration Lab
+# Hyper-V Deployment and Virtual Machine Configuration
 
 ## 📌 Project Title
 Hyper-V Deployment and Virtual Machine Configuration on Windows Server 2022
