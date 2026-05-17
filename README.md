@@ -1,4 +1,6 @@
-![Hyper-V](images/hyper-v-logo.jpg)
+<p align="center">
+<img src="images/hyper-v-logo.jpg" alt="Microsoft Hyper-V Logo"/>
+</p>
 
 # Hyper-V Deployment and Virtual Machine Configuration
 
