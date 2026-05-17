@@ -1,3 +1,5 @@
+![Hyper-V](images/hyper-v-logo.jpg)
+
 # Hyper-V Deployment and Virtual Machine Configuration
 
 ---
