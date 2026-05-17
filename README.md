@@ -4,12 +4,12 @@
 
 ## 📖 Project Summary
 
-This project demonstrates how to install and configure the Hyper-V role on Windows Server and deploy a virtual machine using both GUI and PowerShell methods.
+This project demonstrates how to install and configure the Hyper-V role on Windows 11 and deploy a virtual machine using both GUI and PowerShell methods.
 
 This lab simulates real-world system administration tasks related to virtualization and infrastructure setup.
  
 - **Languages Used:** PowerShell  
-- **Environment:** Windows Server 2022  
+- **Environment:** Windows 11 
 - **Technologies:** Hyper-V, Virtual Machines, Virtual Switch Manager  
 
 ---
@@ -18,7 +18,7 @@ This lab simulates real-world system administration tasks related to virtualizat
 
 Before beginning, ensure the following:
 
-- A system running Windows Server 2022  
+- A system running Windows 11
 - Administrator privileges  
 - CPU virtualization enabled in BIOS (Intel VT-x or AMD-V)  
 - At least:
@@ -30,15 +30,7 @@ Before beginning, ensure the following:
 
 ## ⚙️ Demonstration & Setup Steps
 
-### Step 1: Verify Environment
-
-Confirm you are logged into a Windows Server system and have administrative access.
-
-![Server Manager](images/step1-server-manager.png)
-
----
-
-### Step 2: Install Hyper-V Role
+### Step 1: Install Hyper-V
 
 1. Open **Server Manager**
 2. Click **Add Roles and Features**
