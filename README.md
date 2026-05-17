@@ -94,7 +94,7 @@ PowerShell Method:
 New-VM -Name "TestVM" `
 -MemoryStartupBytes 2GB `
 -Generation 2 `
--NewVHDPath "C:\VMs\TestVM.vhdx" `
+-NewVHDPath "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\TestVM.vhdx" `
 -NewVHDSizeBytes 40GB `
 -SwitchName "ExternalSwitch"
 ```
