@@ -4,7 +4,7 @@
 
 ## 📖 Project Summary
 
-This project demonstrates how to install and configure the Hyper-V role on Windows 11 and deploy a virtual machine using both GUI and PowerShell methods.
+This project demonstrates how to install and configure the Hyper-V role on Windows 11 Pro and deploy a virtual machine using both GUI and PowerShell methods.
 
 This lab simulates real-world system administration tasks related to virtualization and infrastructure setup.
  
@@ -18,7 +18,7 @@ This lab simulates real-world system administration tasks related to virtualizat
 
 Before beginning, ensure the following:
 
-- A system running Windows 11
+- A system running Windows 11 Pro
 - Administrator privileges  
 - CPU virtualization enabled in BIOS (Intel VT-x or AMD-V)  
 - At least:
@@ -32,19 +32,19 @@ Before beginning, ensure the following:
 
 ### Step 1: Install Hyper-V
 
-1. Open **Server Manager**
-2. Click **Add Roles and Features**
-3. Select **Role-based or feature-based installation**
-4. Choose your server
+1. Open **Control Panel**
+2. Click **Programs**
+3. Select **Turn Windows features on or off**
 5. Select **Hyper-V**
-6. Complete the wizard and restart the server
+6. Click **OK** and complete installation
+7. **Restart** the machine 
 
 ![Install Hyper-V](images/step2-install-hyperv.png)
 
 Alternatively, install Hyper-V using PowerShell:
 
 ```powershell
-Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 ---
 
