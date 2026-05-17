@@ -76,15 +76,16 @@ New-VMSwitch -Name "ExternalSwitch" -NetAdapterName "Ethernet" -AllowManagementO
 
 ---
 
-### Step 6: Create Virtual Machine
+### Step 4: Create Virtual Machine
 
 1. In Hyper-V Manager, click **New → Virtual Machine**
 2. Enter **VM name**
-3. Assign **memory**
-4. Select **virtual switch**
-5. Create **virtual hard disk**
-6. Attach **ISO (optional)**
-7. Finish wizard
+3. Specify **generation**
+4. Assign **memory**
+5. Select **virtual switch**
+6. Create **virtual hard disk**
+7. Attach **ISO (optional)**
+8. Finish wizard
    
 ![Install Hyper-V](images/step2-install-hyperv.png)
 
